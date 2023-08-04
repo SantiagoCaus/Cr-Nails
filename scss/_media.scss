@@ -1,0 +1,154 @@
+/* INICIO @MEDIA */
+
+/*MOBILE*/
+
+/* Estilos para pantallas pequeñas */
+
+@media (min-width: 320px) and (max-width:576px) {
+
+    
+
+    .contenido-principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            display: none;
+        }
+    }
+    .contenido-pages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        
+    }
+
+    /* Servicios INDEX */
+
+    .servicios-index{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .servicios-manicure{
+        height: 200px;
+        margin: 10px;
+    }
+    .servicios{
+        text-align: center;
+        font-weight: 700;
+    }
+    .otros-servicios{
+        font-size: 20px;
+        padding: 5px 5px;
+    } 
+
+/* FIN SERVICIOS INDEX */
+
+    /* SERVICIOS */
+    
+    .servicios-imagenes{
+
+        gap: 30px;
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-areas:
+            "express1" 
+            "manicure-basic2" 
+            "manicure-premium3"
+            "podoestetica4"
+            "pedicure-basic5" 
+            "pedicure-premium6"
+            "esmaltado-sempiermanente7" "esmaltado-decoracion8"
+            "esmaltado-shine9"
+            "servicio-esculpidas10" 
+            "servicio-vip11" 
+            "servicio-beauty12";
+
+            grid-template-columns: ( 1fr);
+    
+
+    } 
+}
+
+/* Tablet */
+
+@media only screen and (min-width:577px) and (max-width:991px){
+
+
+
+/* contenido principal */
+
+.contenido-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin:auto;
+    h1{
+        display: none;
+    }
+    
+}
+.contenido-pages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+}
+
+
+/* fin contenido principal */
+
+/* inicio Servicios INDEX */
+
+.servicios-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.servicios-manicure{
+    height: 300px;
+    margin: 20px;
+}
+.servicios{ 
+    text-align: center;
+    font-weight: 700;
+}
+.otros-servicios{
+    font-size: 30px;
+    padding: 5px 5px;
+}
+
+/*fin servicios INDEX  */ 
+
+
+ /* SERVICIOS */
+    
+    .servicios-imagenes{
+    gap: 30px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas:
+        "express1" 
+        "manicure-basic2" 
+        "manicure-premium3"
+        "podoestetica4"
+        "pedicure-basic5" 
+        "pedicure-premium6"
+        "esmaltado-sempiermanente7" "esmaltado-decoracion8"
+        "esmaltado-shine9"
+        "servicio-esculpidas10" 
+        "servicio-vip11" 
+        "servicio-beauty12";
+
+        grid-template-columns: ( 1fr);
+
+
+}
+}

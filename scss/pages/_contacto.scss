@@ -1,0 +1,49 @@
+
+
+/*INICIO Contacto AND MEDIA*/
+
+.first-col{
+    background-color:white ;
+    height: 550px;
+    position: relative;
+    width: 550px;
+    left: 155px;
+    top: 171px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.img-fluid{
+    border-radius: 20px;
+
+}
+
+    
+
+.btn-dark{
+    background-color: #c1b688;
+    border: #c1b688 ;
+}
+.form-control{
+    height: 52px;
+    background-color: $primary-color;
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none;
+    border: 1px solid black;
+}
+.form-control[type=text]:focus{
+    border: 2px solid black; 
+}
+
+@media only screen and (max-width:600px){
+    .first-col{
+        position:initial ;
+        left: 0;
+    }
+    
+}
+
+/*FIN CONTACTO AND MEDIA*/

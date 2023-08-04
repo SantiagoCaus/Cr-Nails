@@ -1,0 +1,49 @@
+
+/* INICIO SERVICIOS */
+
+.display-servicios{
+    gap: 30px;
+    display: grid;
+    align-items: center; 
+    
+}
+
+.background-servicios{
+    background-image: url(../Img/background-servicios.avif);
+    background-size: cover;
+    border: solid 1px white;
+    
+}
+
+.servicios-imagenes{
+    gap: 30px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas:
+        "express1 manicure-basic2 manicure-premium3"
+        "podoestetica4 pedicure-basic5 pedicure-premium6"
+        "esmaltado-sempiermanente7 esmaltado-decoracion8 esmaltado-shine9"
+        "servicio-esculpidas10 servicio-vip11 servicio-beauty12";
+        grid-template-columns: (3, 1fr);
+}
+
+.background-imagen{
+    background-color: #FFECEC;
+    display: grid;
+    justify-items: center;
+    margin: 50px;    
+    transition: transform 0.2s;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    &:hover{transform: scale(1.1);
+    
+    }
+    p{
+        font-weight: bolder;
+        
+        
+}
+}
+    
+/* FIN SERVICIOS */

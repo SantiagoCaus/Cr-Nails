@@ -9,7 +9,7 @@
     background-image: url(../Img/section-photo.jpg);
     background-size: cover;
     min-height: 75vh;
-    border: solid 2px $secondary-color;
+    border: solid 1px $secondary-color;
     width: 100%;
 
     .contenido-principal{
@@ -60,7 +60,7 @@
 .background-gray{
 
 
-    border: solid 2px $secondary-color;
+    border: solid 1px $secondary-color;
 
     .otros-servicios{
         text-align: center;
@@ -73,7 +73,6 @@
         font-weight: bold;
         transition: background-color 1s ease;
         font-size: 30px;
-
         &:hover{
             background-color: $primary-color;
             color: $secondary-color;
@@ -81,7 +80,42 @@
     }
 } 
 
+
 /* FIN SERVICIOS INDEX */
+
+/*INICIO PRECIOS INDEX*/
+
+.content-price{
+    background-color: $primary-color;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px; 
+    -o-border-radius: 20px;
+}
+
+
+.lista-precios{
+    color: $primary-color;
+    background-color: $secondary-color;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: background-color 1s ease;
+    &:hover{
+        background-color: $primary-color;
+        color: $secondary-color;
+    }
+        
+    
+}
+/*FIN PRECIOS INDEX*/
 
 
 /* FIN INDEX */
